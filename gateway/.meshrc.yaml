@@ -1,0 +1,9 @@
+sources:
+  - name: RestAPI
+    handler:
+      openapi:
+        source: http://localhost:3000/swagger/json
+  - name: GraphQLAPI
+    handler:
+      graphql:
+        endpoint: http://localhost:3001/graphql

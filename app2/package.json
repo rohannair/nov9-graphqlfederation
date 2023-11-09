@@ -1,0 +1,18 @@
+{
+  "name": "app2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/graphql-yoga": "^0.7.1",
+    "elysia": "^0.7.24"
+  },
+  "scripts": {
+    "dev": "bun run index.ts"
+  }
+}
